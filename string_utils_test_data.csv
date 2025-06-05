@@ -1,0 +1,9 @@
+text,a,b,start,length,index,old,new,prefix,suffix,substring,concat_result,substring_result,get_char_at_result,to_uppercase_result,to_lowercase_result,replace_result,starts_with_result,ends_with_result,contains_result,length_result,trim_result,exception
+"Hello World","Hello"," World",0,5,0,"l","L","He","ld","Wor","Hello World","Hello","H","HELLO WORLD","hello world","HeLLo World",true,false,true,11,"Hello World",None
+"Hello World","Hello"," World",6,5,6,"l","L","Wo","ld","Wor","Hello World","World","W","HELLO WORLD","hello world","HeLLo World",false,true,true,11,"Hello World",None
+"Hello World","Hello"," World",0,0,10,"l","L","He","ld","Wor","Hello World","","d","HELLO WORLD","hello world","HeLLo World",true,false,true,11,"Hello World",None
+"  spaces  ","trim"," test",2,6,3,"s","S","  ","  ","spa","trim test","spaces","a","  SPACES  ","  spaces  ","  SpaceS  ",false,true,true,10,"spaces",None
+"","empty","",0,0,0,"","x","","","","empty","","","","","",false,false,false,0,"",IndexError
+"abc","a","bc",-1,2,2,"b","B","a","c","b","abc","",null,"ABC","abc","aBc",true,true,true,3,"abc",IndexError
+"abc","a","bc",1,5,5,"b","B","a","c","b","abc","bc",null,"ABC","abc","aBc",true,true,true,3,"abc",IndexError
+"   trim   ","test"," this",0,4,0,"m","M","   ","   ","tri","test this","   t","t","   TRIM   ","   trim   ","   triM   ",true,true,false,10,"trim",None

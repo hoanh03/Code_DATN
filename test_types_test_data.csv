@@ -1,0 +1,9 @@
+a,b,c,function_with_simple_types_result,function_with_complex_types_result,function_with_tuple_types_result,exception
+1,"test",2.5,true,null,null,None
+"[1, 2, 3]","{'key': 'value'}","string",null,null,null,TypeError
+"(1, 'text')","(1.5, 2.5, 3.5)",null,null,null,"(true, 0)",None
+0,"",0.0,true,null,null,None
+"[5]","{'name': 'test'}",5,null,null,null,TypeError
+"(10, 'hello')","(0.5,)",null,null,null,"(true, 0)",None
+-1,"negative",-1.5,true,null,null,None
+"[]","{}","mixed",null,null,null,TypeError

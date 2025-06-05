@@ -1,0 +1,9 @@
+a,b,equal_result
+5,5,true
+10,5,false
+0,0,true
+-5,-5,true
+-5,5,false
+100,100,true
+0,1,false
+-10,-10,true
