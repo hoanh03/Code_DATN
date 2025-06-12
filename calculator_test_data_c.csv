@@ -1,0 +1,9 @@
+a,b,add_result,subtract_result,multiply_result,divide_result,power_result,modulus_result,square_root_a,absolute_a,exception
+5,3,8,2,15,1.6666666666666667,125,2,2.23606797749979,5,None
+-5,3,-2,-8,-15,-1.6666666666666667,-125,-2,None,5,ValueError
+10,2,12,8,20,5.0,100,0,3.1622776601683795,10,None
+0,5,5,-5,0,0.0,0,0,0.0,0,None
+5,0,5,5,0,None,1,None,2.23606797749979,5,ZeroDivisionError
+-10,-5,-15,-5,50,2.0,0.00001,-0,None,10,None
+100,10,110,90,1000,10.0,10000000000,0,10.0,100,None
+-7,2,-5,-9,-14,-3.5,49,-1,None,7,ValueError
